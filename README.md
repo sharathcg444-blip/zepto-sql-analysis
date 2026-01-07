@@ -43,26 +43,27 @@ The dataset contains product-level information from Zepto, including:
 - Find products priced above category average
 
 
+## 📁 Project Structure
+```text
 postgresql-sql-project/
-│
 ├── README.md
 ├── schema/
 │   └── create_tables.sql
-│
 ├── data/
 │   └── insert_data.sql
-│
 ├── queries/
 │   ├── basic_queries.sql
 │   ├── joins.sql
 │   ├── aggregate_queries.sql
 │   ├── cte_queries.sql
 │   ├── window_functions.sql
-│   
-│
+│   └── interview_queries.sql
 └── insights/
-    └── findings.md 
+    └── findings.md
+```
 
-## 📁 Project Structure
+
+
+
 # zepto-sql-analysis
 A PostgreSQL-based SQL project covering data analysis, joins, CTEs, window functions, and business queries using real-world datasets.
